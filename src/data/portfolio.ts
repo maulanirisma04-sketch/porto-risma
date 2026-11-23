@@ -15,7 +15,7 @@ export const profile = {
   summary:
     "Lulusan S1 Sistem Informasi dengan pengalaman magang di bidang System Analysis serta Marketing & Sales Support, dan pengalaman kerja dalam administrasi operasional serta digital marketing. Memiliki pengalaman dalam analisis kebutuhan sistem, dokumentasi proses bisnis, pengujian sistem, pengelolaan data, dan pembuatan konten digital.",
   /** Letakkan file CV di folder /public dengan nama ini. */
-  cvPath: "/cv-risma-maulani.pdf",
+  cvPath: "/ATS-Risma(2)(1).pdf",
   /**
    * Foto profil (opsional). Letakkan foto di /public lalu isi path-nya,
    * contoh: "/profile.jpg". Jika null, tampil inisial RM.
