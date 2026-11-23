@@ -20,7 +20,7 @@ export const profile = {
    * Foto profil (opsional). Letakkan foto di /public lalu isi path-nya,
    * contoh: "/profile.jpg". Jika null, tampil inisial RM.
    */
-  photoPath: null as string | null,
+  photoPath: "/profile.jpeg" as string | null,
   siteUrl: "https://risma-maulani.vercel.app",
 };
 
