@@ -5,17 +5,17 @@
 
 export const profile = {
   name: "Risma Maulani",
-  initials: "RM",
+  initials: "RISMA",
   location: "Bandung, Indonesia",
   email: "maulanirisma04@gmail.com",
   linkedin: "https://www.linkedin.com/in/risma-maulani-b021b32b1/",
   headline: "Information Systems Graduate | System Analysis | Data & Administration",
   heroDescription:
-    "Lulusan S1 Sistem Informasi dengan pengalaman di bidang system analysis, dokumentasi proses bisnis, pengelolaan data, dan digital marketing.",
+    "Bachelor's degree in Information Systems with experience in system analysis, business process documentation, data management, and digital marketing.",
   summary:
-    "Lulusan S1 Sistem Informasi dengan pengalaman magang di bidang System Analysis serta Marketing & Sales Support, dan pengalaman kerja dalam administrasi operasional serta digital marketing. Memiliki pengalaman dalam analisis kebutuhan sistem, dokumentasi proses bisnis, pengujian sistem, pengelolaan data, dan pembuatan konten digital.",
+    "A graduate with a Bachelor's degree in Information Systems with internship experience in System Analysis as well as Marketing & Sales Support, and work experience in operational administration and digital marketing. Has experience in system requirement analysis, business process documentation, system testing, data management, and creating digital content.",
   /** Letakkan file CV di folder /public dengan nama ini. */
-  cvPath: "/ATS-Risma(2)(1).pdf",
+  cvPath: "/cv-risma.pdf",
   /**
    * Foto profil (opsional). Letakkan foto di /public lalu isi path-nya,
    * contoh: "/profile.jpg". Jika null, tampil inisial RM.
@@ -43,25 +43,25 @@ export const competencies: {
   {
     title: "Information Systems & Technology",
     description:
-      "Dasar pengembangan sistem informasi berbasis web dengan Laravel, PHP, dan MySQL.",
+      "The basics of developing web-based information systems with Laravel, PHP, and MySQL.",
     icon: "laptop",
   },
   {
     title: "System Analysis & Documentation",
     description:
-      "Analisis kebutuhan, penyusunan SRS, flowchart, use case diagram, dan pengujian manual.",
+      "Requirement analysis, preparing the SRS, flowchart, use case diagram, and manual testing.",
     icon: "file",
   },
   {
     title: "Data Processing & Administration",
     description:
-      "Pengelolaan data, pencatatan, pelaporan, dan administrasi operasional menggunakan Excel.",
+      "Managing data, recording, reporting, and operational administration using Excel.",
     icon: "database",
   },
   {
     title: "Digital Marketing & Content Creation",
     description:
-      "Pembuatan konten digital dan materi promosi untuk media sosial dengan Canva dan CapCut.",
+      "Creating digital content and promotional materials for social media using Canva and CapCut.",
     icon: "megaphone",
   },
 ];
@@ -143,16 +143,16 @@ export const projects: Project[] = [
     title: "Web-Based Patient Data Management System",
     category: "Information System Development",
     description:
-      "Sistem informasi berbasis web untuk membantu pengelolaan data pasien, kunjungan, dan rekam medis pada praktik mandiri bidan.",
+      "A web-based information system to help manage patient data, visits, and medical records in a midwife's private practice.",
     details: [
-      "Sistem informasi berbasis web untuk membantu pengelolaan data pasien, kunjungan, dan rekam medis pada praktik mandiri bidan.",
-      "Dikembangkan dengan Laravel, PHP, dan MySQL. Source code tersedia di GitHub.",
+      "SA web-based information system to help manage patient data, visits, and medical records in a midwife's private practice.",
+      "Developed with Laravel, PHP, and MySQL. The source code available on GitHub",
     ],
     // Role belum disediakan — isi di sini jika ingin ditampilkan, contoh: role: "Developer",
     tools: ["Laravel", "PHP", "MySQL"],
     links: [
       {
-        label: "Lihat di GitHub",
+        label: "View on GitHub",
         href: "https://github.com/maulanirisma04-sketch/skripsi",
         kind: "github",
       },
@@ -163,29 +163,29 @@ export const projects: Project[] = [
     title: "IBS Lite – Cooperative Digitalization",
     category: "Business Process & Digitalization",
     description:
-      "Terlibat dalam dukungan pengembangan dan digitalisasi layanan lembaga keuangan koperasi melalui proyek IBS Lite di PT USSI.",
+      "Involved in supporting the development and digitalization of cooperative financial institution services through the IBS Lite project at PT USSI.",
     details: [
-      "Terlibat dalam dukungan pengembangan dan digitalisasi layanan lembaga keuangan koperasi melalui proyek IBS Lite di PT USSI.",
-      "Kontribusi berada pada sisi dukungan marketing & sales, sesuai posisi sebagai Marketing & Sales Support Intern.",
+      "Involved in supporting the development and digitalization of cooperative financial institution services through the IBS Lite project at PT USSI.",
+      "My contribution is on the marketing & sales support side, in line with my position as a Marketing & Sales Support Intern.",
     ],
     role: "Marketing & Sales Support Intern",
     tools: [],
     links: [],
-    note: "Dokumen internal, informasi klien, dan data rahasia perusahaan tidak ditampilkan.",
+    note: "Internal docs, client info, and confidential company data aren’t shown.",
   },
   {
     slug: "system-requirement-specification",
     title: "System Requirement Specification (SRS)",
     category: "System Analysis & Documentation",
     description:
-      "Dokumentasi kebutuhan sistem untuk mendukung komunikasi antara kebutuhan pengguna dan tim pengembangan.",
+      "System requirements documentation to support communication between user needs and the development team.",
     details: [
-      "Dokumentasi kebutuhan sistem untuk mendukung komunikasi antara kebutuhan pengguna dan tim pengembangan.",
+      "System requirements documentation to support communication between user needs and the development team.",
     ],
     tools: ["SRS", "Dokumentasi Sistem"],
     links: [
       {
-        label: "Buka Dokumentasi",
+        label: "Explore Documentation",
         href: "https://docs.google.com/document/d/1LUrztGOtTLwDYYAaXxJh7IqJQ3yp_4260-dGmCqmDm4/edit",
         kind: "document",
       },
@@ -196,14 +196,14 @@ export const projects: Project[] = [
     title: "Excel Data Processing",
     category: "Data Processing & Reporting",
     description:
-      "Studi kasus pengolahan data menggunakan Microsoft Excel, termasuk pengelolaan data, penggunaan formula, dan penyusunan informasi untuk kebutuhan analisis.",
+      "A case study on data processing using Microsoft Excel, including data management, using formulas, and organizing information for analysis purposes.",
     details: [
-      "Studi kasus pengolahan data menggunakan Microsoft Excel, termasuk pengelolaan data, penggunaan formula, dan penyusunan informasi untuk kebutuhan analisis.",
+      "A case study on data processing using Microsoft Excel, including data management, using formulas, and organizing information for analysis purposes.",
     ],
     tools: ["Microsoft Excel"],
     links: [
       {
-        label: "Buka Dokumentasi",
+        label: "View Project Documentation",
         href: "https://docs.google.com/document/d/1f23Hx5okaocVqbgetxq-m00JpdQIY_of/edit",
         kind: "document",
       },
@@ -214,14 +214,14 @@ export const projects: Project[] = [
     title: "Software Quality Assurance & Testing",
     category: "Software Testing",
     description:
-      "Dokumentasi pengujian sistem secara manual untuk memeriksa kesesuaian fungsi aplikasi dengan kebutuhan yang ditentukan.",
+      "Manual system testing documentation to check if the application's functions match the specified requirements.",
     details: [
-      "Dokumentasi pengujian sistem secara manual untuk memeriksa kesesuaian fungsi aplikasi dengan kebutuhan yang ditentukan.",
+      "Manual system testing documentation to check if the application's functions match the specified requirements.",
     ],
     tools: ["Manual Testing"],
     links: [
       {
-        label: "Buka Dokumentasi",
+        label: "View Project Documentation",
         href: "https://docs.google.com/spreadsheets/d/14KdM2P66J-Obzxj9j-XXXCr4j7NJTPbsoIDoxuCeb5Y/edit",
         kind: "spreadsheet",
       },
@@ -232,19 +232,20 @@ export const projects: Project[] = [
     title: "Digital Marketing & Social Media Content",
     category: "Digital Marketing & Content Creation",
     description:
-      "Pembuatan konten edukasi bahasa Inggris, konten promosi program pembelajaran, dan materi visual untuk media sosial The Alpha Indonesia.",
+      "Creating English educational content, promotional content for learning programs, and visual materials for The Alpha Indonesia's social media.",
     details: [
-      "Pembuatan konten edukasi bahasa Inggris, konten promosi program pembelajaran, dan materi visual untuk media sosial The Alpha Indonesia.",
+      "Creating English educational content, promotional content for learning programs, and visual materials for The Alpha Indonesia's social media.",
     ],
     role: "Admin & Marketing Staff",
     tools: ["Konten Edukasi", "Media Sosial"],
     links: [
       {
-        label: "Lihat Instagram",
+        label: "Check Instagram",
         href: "https://www.instagram.com/the_alpha_id/",
         kind: "instagram",
       },
     ],
+    note: "Managed and created Instagram content for The Alpha Indonesia, including content planning, visual design, copywriting, and post preparation. All published content from the account's initial posts through November 11, 2026, was created by me.",
   },
 ];
 
